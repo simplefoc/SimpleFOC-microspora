@@ -1,5 +1,5 @@
 # SimpleFOC-microspora v1.7
-This is a compact all-in-one BLDC driver board built for the SimpleFOC ecosystem. The project is a direct fork of the [MicroSpora board from RamBros](https://github.com/rambros3d/MicroSpora-SimpleFOC).
+This is a compact all-in-one BLDC/Stepper driver board built for the SimpleFOC ecosystem. The project is a direct fork of the [MicroSpora board from RamBros](https://github.com/rambros3d/MicroSpora-SimpleFOC).
 
 <img height="200px" src="./images/side.png" /><img height="200px" src="./images/top.png" /><img height="200px" src="./images/bottom.png" />
 
@@ -40,11 +40,19 @@ The example firmware and reference code can be found in the [microspora_simplefo
 Release | Date | Description
 --- | --- | ---
 v0.1 | 2025-05 | Initial public release of the MicroSpora board by [@RamBros](https://github.com/rambros3d/MicroSpora-SimpleFOC)
-v1.2 | 2025-07 | Added CAN and additional GPIOs JST connectors
+v1.2 | 2025-07 | Added CAN and additional GPIOs JST connectors, gone from 6-layer to 4-layer PCB
 v1.4 | 2025-12 | Added CAN daisy-chain support + two additional JST connectors for SPI and I2C/Encoder/GPIO
 v1.5 | 2026-01 | Pinout refining
 v1.6 | 2026-04 | Optimising the JST pinout, compatibility with Stemma / Qwiic-style connectors, reintroduced the Reset button
 v1.7 | 2026-06 | Changed the sensor placement to the bottom side, much better performance for stepper motors
+
+## Fastening holes
+
+The board has 3 slots allowing for M3/M2 screws to be used for fastening the board to a surface or enclosure. The slots are 3.2mm wide and 5mm long, allowing for some flexibility in placement.
+
+<img height="200px" src="./images/holes.png" />
+
+The placement will allow for most of the gimbal motors as GM2808, GM3506, GM4108, GM5208 etc. And a simple 3d-printed part cna be used in cases where the motor holes do not match the board holes. 
 
 ## Connectors 
 
@@ -135,3 +143,5 @@ The board also has a reset and boot button, as well as a user LED connected to P
 The full documentation is still being expanded, but the project is already designed for use with the SimpleFOC ecosystem and supports the core features needed for compact low-power BLDC control.
 
 For now, you can follow the discussions on the [SimpleFOC community forum](https://community.simplefoc.com) or the project Discord server for updates and usage tips.
+
+
