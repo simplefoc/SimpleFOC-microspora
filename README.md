@@ -54,6 +54,7 @@ The board has 3 slots allowing for M3/M2 screws to be used for fastening the boa
 
 The placement will allow for most of the gimbal motors as GM2808, GM3506, GM4108, GM5208 etc. And a simple 3d-printed part cna be used in cases where the motor holes do not match the board holes. 
 
+<img height="200px" src="./images/gim_big.jpg" /><img height="200px" src="./images/gim_med.jpg" /><img height="200px" src="./images/nema.jpg" />
 ## Connectors 
 
 The board has a double 3-pin JST connector for daisy-chaining multiple boards using CAN. The order of pins is 
