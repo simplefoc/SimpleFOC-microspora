@@ -1,7 +1,7 @@
 # SimpleFOC-microspora v1.7
 This is a compact all-in-one BLDC/Stepper driver board built for the SimpleFOC ecosystem. The project is a direct fork of the [MicroSpora board from RamBros](https://github.com/rambros3d/MicroSpora-SimpleFOC).
 
-📢 NEW: This board is now available in our collaboration with **Makerfabs**: [See more on makerfabs.com](https://www.makerfabs.com/microspora.html)
+📢 NEW: This board is now available in our collaboration with **Makerfabs**: [See more on makerfabs.com](https://www.makerfabs.com/simplefoc-microspora.html)
 
 <img height="200px" src="./images/side.png" /><img height="200px" src="./images/top.png" /><img height="200px" src="./images/bottom.png" />
 
@@ -29,7 +29,7 @@ This is a compact all-in-one BLDC/Stepper driver board built for the SimpleFOC e
 - Low-cost: 
     - designed to be affordable for hobbyists and makers
     - At JLCPCB, the board can be manufactured for about 20$ 
-    - Available with Makerfabs - see more at [makerfabs.com](https://www.makerfabs.com/microspora.html)
+    - Available with Makerfabs - see more at [makerfabs.com](https://www.makerfabs.com/simplefoc-microspora.html)
 
 
 ## Getting started with SimpleFOC-microspora
