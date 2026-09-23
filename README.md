@@ -8,6 +8,8 @@ This is a compact all-in-one BLDC/Stepper driver board built for the SimpleFOC e
 ## Features
 - MCU: STM32G431CBU6
 - Driver: DRV8316
+  - Power supply: 5-35V
+  - Max current: 8A
 - Sensing
   - MT6701 magnetic encoder support
   - Built for current and voltage sensing
